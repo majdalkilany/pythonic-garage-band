@@ -1,0 +1,7 @@
+README.rst
+setup.py
+pythonic_garage_band/__init__.py
+pythonic_garage_band.egg-info/PKG-INFO
+pythonic_garage_band.egg-info/SOURCES.txt
+pythonic_garage_band.egg-info/dependency_links.txt
+pythonic_garage_band.egg-info/top_level.txt
