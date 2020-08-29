@@ -11,9 +11,8 @@ class Band ():
     def play_solo(self) :
         the_members = Musician.all_members()
         solo_players = []
-        for i in the_members :
 
-             solo_players.append(f' "i am { i} and i am a solo player from the class Band')
+        solo_players.append(f' "i am { self.name } and i am a solo player from the class Band')
         return solo_players
 
     def __str__(self):
@@ -24,11 +23,10 @@ class Band ():
         
 
     @classmethod
-    def to_list() : 
-        return Band.band_names
+    def to_list(cls) : 
  
  
-        return Band.band_names
+        return cls.band_names
 if __name__=="__main__":
     
 
