@@ -171,7 +171,3 @@ if __name__=="__main__":
     # print(Musician.__str__)
 
     # print(Musician.all_members())
-
-
-
-   
